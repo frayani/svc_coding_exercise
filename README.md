@@ -9,7 +9,7 @@ Example:
 <b>GET</b>
 `localhost:8081/svc/exercise/{n}/process/{k}`
 
-localhost:8081/svc/exercise/20/process/k
+localhost:8081/svc/exercise/20/process/8
 
 Output:
 
