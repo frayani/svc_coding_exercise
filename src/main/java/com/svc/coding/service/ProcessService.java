@@ -73,6 +73,11 @@ public class ProcessService {
      * leaves the circle. The count starts again with the child immediately next to the
      * eliminated one
      */
+    
+    /* Explanantion of the runtime order complexity
+     * The position returned by start and end node is adjusted because the recursive call  
+     move() considers the original position  childrenFlow.getFirst() as position 1 */
+    
     public void execute() {
         endNode = null;
         startNode = childrenFlow.getFirst();
